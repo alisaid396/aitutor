@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Streamlit
+# =========================
+
+.streamlit/secrets.toml
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+
+# =========================
+# Model / ML Files
+# =========================
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# =========================
+# Vector Databases
+# =========================
+
+faiss_index/
+vectorstore/
+*.faiss
+*.pkl
+
+# =========================
+# Uploaded / Private Data
+# =========================
+
+uploads/
+data/
+datasets/
+
+# PDFs
+*.pdf
+
+# =========================
+# Generated Files
+# =========================
+
+outputs/
+results/
+*.zip

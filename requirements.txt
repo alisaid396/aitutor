@@ -1,0 +1,33 @@
+# Backend
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# LLM
+torch
+transformers
+accelerate
+
+# Embeddings
+sentence-transformers
+
+# Vector Database
+faiss-cpu
+
+# PDF Processing
+pypdf
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+
+# Tunneling
+pyngrok
+
+# Frontend
+streamlit
+requests
